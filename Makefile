@@ -98,5 +98,5 @@ bonus: $(OBJECTS) $(BONUS_OBJS)
 	echo "  ##                                                         ##"
 	echo "  ##---------------------------------------------------------##"
 	echo ""
-
+.SILENT:
 .PHONY: all clean fclean re bonus
